@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h2= title
+  section
+    h3 Semua Artikel
+    article
+      each article in articles
+        include article.pug
